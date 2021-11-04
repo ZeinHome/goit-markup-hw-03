@@ -14,6 +14,8 @@
     --bg-hero: #2F303A;
     --bg-color-s: #E5E5E5;
     --bg-section-team: #F5F4FA;
+    /* line */
+    --color-line: #ECECEC;
 }
 
 body {
@@ -54,7 +56,7 @@ ul {
 /* header */
 
 .line {
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--color-line);
 }
 
 .main-nav {
